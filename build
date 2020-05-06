@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+rm -rf target/*
+elm make src/Main.elm --output=target/app.js
+cp src/*.js target/
+cp src/*.html target/
