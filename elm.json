@@ -6,6 +6,7 @@
     "elm-version": "0.19.1",
     "dependencies": {
         "direct": {
+            "ThinkAlexandria/elm-pretty-print-json": "1.0.1",
             "elm/browser": "1.0.2",
             "elm/core": "1.0.2",
             "elm/html": "1.0.0",
@@ -14,11 +15,14 @@
             "elm/url": "1.0.0",
             "elm-community/list-extra": "8.2.4",
             "elm-explorations/linear-algebra": "1.0.3",
+            "mdgriffith/elm-ui": "1.1.5",
             "xarvh/elm-gamepad": "3.0.0"
         },
         "indirect": {
             "elm/regex": "1.0.0",
-            "elm/virtual-dom": "1.0.2"
+            "elm/virtual-dom": "1.0.2",
+            "elm-community/basics-extra": "4.1.0",
+            "the-sett/elm-pretty-printer": "2.2.3"
         }
     },
     "test-dependencies": {
