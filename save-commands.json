@@ -1,5 +1,6 @@
 {
   "commands": [
-    "src/* : sh build"
+    "src/** : sh build",
+    "assets/** : sh build"
   ]
 }
